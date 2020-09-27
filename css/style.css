@@ -117,7 +117,7 @@ a:hover {
 .scrolltop:active,
 .scrolltop:focus {
     color: #fff !important;
-    opacity: .75;
+    opacity: 0.75;
 }
 
 
@@ -137,7 +137,7 @@ a:hover {
 }
 
 .hero:after {
-    content: '';
+    content: "";
     z-index: 0;
     position: absolute;
     background: rgba(0, 0, 0, 0.65);
@@ -162,7 +162,7 @@ a:hover {
 }
 
 .hero-brand:hover {
-    opacity: .75;
+    opacity: 0.75;
 }
 
 .tagline {
@@ -527,7 +527,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     right: -15px;
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    background-color: #E04F00;
+    background-color: #e04f00;
     position: absolute;
     border-radius: 50%;
     font-weight: 700;
@@ -626,7 +626,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .cta p {
     margin-bottom: 0;
-    opacity: .75;
+    opacity: 0.75;
 }
 
 .cta .btn-ghost {
@@ -698,7 +698,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio-grid .row>div .card .portfolio-over .card-text {
     color: #fff;
-    opacity: .75;
+    opacity: 0.75;
     padding: 0 45px;
 }
 
@@ -736,7 +736,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .team .card p {
     font-size: 11px;
     color: #fff;
-    opacity: .75;
+    opacity: 0.75;
     margin: 0;
     padding: 0 35px;
 }
@@ -752,7 +752,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card .social-nav a:hover {
-    opacity: .75;
+    opacity: 0.75;
 }
 
 .team .card:hover .team-over {
@@ -822,18 +822,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact h2 {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
-    color: #999;
+    color: black;
 }
 
 #contact .info i {
     font-size: 32px;
-    color: #999;
+    color: black;
     float: left;
 }
 
 #contact .info p {
     padding: 0 0 10px 50px;
     line-height: 24px;
+}
+
+#contact .info a:link {
+    font-size: 16px;
+    padding-left: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+#contact .info a {
+    font-size: 16px;
+    padding-left: 16px;
+    text-decoration: none;
+    color: black;
 }
 
 #contact .form #sendmessage {
@@ -907,7 +921,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .site-footer p {
-    opacity: .75;
+    opacity: 0.75;
     line-height: 2.0925;
 }
 
@@ -918,7 +932,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .site-footer .social-nav a {
     color: #fff;
-    opacity: .25;
+    opacity: 0.25;
 }
 
 .site-footer .social-nav a:hover {
